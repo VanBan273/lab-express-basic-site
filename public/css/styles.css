@@ -96,18 +96,15 @@ body{
 .carousel{
     margin-top: 3rem;
     margin-bottom: 3rem;
-    width: 90%;
-    border: rgb(216, 63, 46
-    ) solid 1rem;
+    width: 75%;
+    border: #FFD700 solid 1rem;
     border-radius: 1rem;
-    margin-left: 5%;
-    color: rgb(216, 63, 46
-    );
+    margin-left: 13%;
+    color: #796905;
 }
 .carousel-caption button{
-    background-color: rgb(216, 63, 46
-    );
-    color: white;
+    background-color: #FFD700;
+    color: #000000;
 }
 .contenedor{
     margin-top: 4rem;
