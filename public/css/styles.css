@@ -1,0 +1,138 @@
+@font-face {
+    font-family:"rudeMetal";
+    src: url("/public/font/OptimusPrinceps.ttf");
+}
+
+body{
+    background-image: url(/public/images/backgorund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFD700;
+}
+
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-left: 45%;
+    font-family: "OptimusPrinceps";
+    color: #FFD700;
+    text-shadow:
+      2px 2px 0 rgb(17, 16, 16),
+      6px 6px 2px rgb(0, 0, 0),
+      12px 12px 8px rgb(116, 115, 115);
+      font-size: 20px;
+      
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFD700;
+    font-size: 25px;
+    
+}
+.portada{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+   font-size: 19px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%;
+    text-shadow:
+      2px 2px 0 rgb(17, 16, 16),
+      6px 6px 2px rgb(0, 0, 0),
+      12px 12px 8px rgb(116, 115, 115);
+      font-family: "OptimusPrinceps";
+      
+      
+}
+.portada div{
+    margin-top: 2rem;
+    font-weight: 700;
+    
+
+}
+.titulo{
+    
+    font-size: 50px;
+    font-family: "OptimusPrinceps";
+    
+}
+
+.portada img{
+    width: 1280px;
+    height: 528px;
+    border: #796905
+     solid 5px;
+    display: flex;
+    
+}
+
+.author div{
+    margin-top: 20px;
+    font-weight: 800;
+   
+    text-shadow:
+      2px 2px 0 rgb(17, 16, 16),
+      6px 6px 2px rgb(0, 0, 0),
+      12px 12px 8px rgb(116, 115, 115);
+      font-family: "OptimusPrinceps";
+   
+}
+.autor{
+    border-bottom: solid #FFD700 2px;
+    display: flex;
+    
+}
+.author img{
+    width: 680px;
+    height: 478px;
+    border: #796905 solid 5px;
+}
+.carousel{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    border: rgb(216, 63, 46
+    ) solid 1rem;
+    border-radius: 1rem;
+    margin-left: 5%;
+    color: rgb(216, 63, 46
+    );
+}
+.carousel-caption button{
+    background-color: rgb(216, 63, 46
+    );
+    color: white;
+}
+.contenedor{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor img{
+    width: 380px;
+    height: 578px;
+    border: #796905 solid 0.5rem;
+}
+
+.otherGames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.otherGames>div{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
