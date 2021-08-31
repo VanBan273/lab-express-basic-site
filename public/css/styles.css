@@ -1,10 +1,10 @@
 @font-face {
-    font-family:"rudeMetal";
-    src: url("/public/font/OptimusPrinceps.ttf");
+    font-family:"OptimusPrinceps";
+    src: url("/font/OptimusPrinceps.ttf");
 }
 
 body{
-    background-image: url(/public/images/backgorund.jpg);
+    background-image: url(/images/backgorund.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFD700;
@@ -81,17 +81,25 @@ body{
       6px 6px 2px rgb(0, 0, 0),
       12px 12px 8px rgb(116, 115, 115);
       font-family: "OptimusPrinceps";
+      margin-left: 30%;
+      margin-right: 30%;
+      font-size: 18px;
+      
    
 }
 .autor{
     border-bottom: solid #FFD700 2px;
     display: flex;
     
+    
 }
 .author img{
     width: 680px;
     height: 478px;
     border: #796905 solid 5px;
+    margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 30px;
 }
 .carousel{
     margin-top: 3rem;
@@ -132,4 +140,5 @@ body{
     margin-top: 1rem;
     font-weight: bold;
 }
+
 

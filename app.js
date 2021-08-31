@@ -1,5 +1,5 @@
 const express = require(`express`)
-const chalk = require(`chalk`)
+
 
 const app = express()
 
@@ -22,5 +22,5 @@ app.get(`/gallery`,(request, response)=>{
 })
 
 app.listen(`3500`, ()=>{
-    console.log(chalk.green.inverse(`Servidor activo en puerto 3500`))
+    
    })
